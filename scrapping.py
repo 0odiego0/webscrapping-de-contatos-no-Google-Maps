@@ -92,5 +92,6 @@ driver.quit()
 
 # Criar o DataFrame e salvar como Excel
 df = pd.DataFrame(dados_empresas, columns=["Nome", "Telefone"])
-df.to_excel(r'C:\Users\IBRA\Desktop\webscrapping\telefones_empresas.xlsx', index=False)
+df.to_excel(r'caminho\telefones_empresas.xlsx', index=False)
 print("Dados exportados para planilha telefones_empresas.xlsx")
+
