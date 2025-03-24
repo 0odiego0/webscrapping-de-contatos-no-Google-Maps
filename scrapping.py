@@ -12,7 +12,7 @@ import pandas as pd
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
 # Pesquisa no Google Maps
-busca = "empresas em São José dos Campos"
+busca = "empresas em ~insira aqui o nome de alguma cidade, rua ou a busca que lhe atender melhor~"
 url = f"https://www.google.com/maps/search/{busca.replace(' ', '+')}"
 driver.get(url)
 time.sleep(5)
